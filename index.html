@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Personal Portfolio Website
+        </title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/811e6fba05.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+       <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.jpeg" class="logo">
+               <!---- <span><h1>JIFNA.</h1></span></a>-->        
+           
+               <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+               </ul>
+               <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>Hi I am<span> Jifna</span> <br>From India</h1>
+            </div>
+        </div>
+       </div>
+<!-----about-->
+       <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img2.jpeg" >
+                </div>
+                <div class="about-col-2">
+                    <h1  class="sub-title">About me</h1>
+                    <p>My name is Jifna.i am passionate about my work.i am ambitious and driven, highly organise, self motivated, hardworking and desciplined person.my short-term goal is get a job in a reputed company. and my long term goal is to achieve a good position where i can build my career as well as an organization company. i am flexible, reliable and possess excellent time keeping skills.i am an enthusiastic, self motivated, reliable, responsible and hardworking person.i am able to work well both in a team environment as well asu sing own initiative.</p>             
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('project')">Projects</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                        <li><span>Web Devolopment</span><br>Web App Devolopment</li>
+                        <li><span>App Devolopment</span><br>Building Android/ios apps</li>                    </ul>
+                </div>
+   
+                <div class="tab-contents" id="project">
+                    <ul>
+                        <li><span>Android</span><br>Employee monitoring System<br></li>
+                        <li><span>Php</span><br>Library Management system</li>
+                        <li><span>Visual Basic</span><br>Post office Management system</li>
+                        <li><span>python</span><br>vaccine Management system</li>
+                         
+                    </ul>
+                </div>
+
+
+
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2019-2023</span><br>Masters in computer Application's(MCA)</li>
+                        <li><span>2019-2020</span><br>post graduation diploma in computer applications (PGDCA)</li>
+                        <li><span>2022</span><br>DevOps</li>
+                        <li><span>2015-2018</span><br>BCA</li>
+                         
+                    </ul>
+                </div>
+
+            </div> 
+         </div>
+        </div>
+       </div>
+
+
+       <!--services-->
+       <div id="services">
+        <div class="container">
+            <h1  class="sub-title">My services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>
+                        Web Hosting. By far, the most popular additional upsell for web designers would be the web hosting. 
+Domain Names. Selling the domain names with a marginal service charge on top is always a viable upsell for web designers. Logo Design Photography
+..Email Addresses
+
+        </p>
+
+        <a href="#">Lean more</a>
+                </div>
+        
+       
+
+
+       <div>
+        <i class="fa-solid fa-crop"></i>
+        <h2>UI/UX Design</h2>
+        <p>
+            UI UX designers create the user interface for an app, website, or other interactive media. 
+
+</p>
+<a href="#">Lean more</a>
+    </div>
+
+    
+ <div>
+ 
+<i class="fa-brands fa-app-store"></i>
+    <h2>App Design</h2>
+    <p>
+        The application designer gathers requirements from business systems analysts and end users. The designer also determines which IT resources will be available to support the application
+    </p>
+<a href="#">Lean more</a>
+</div>
+
+</div>
+</div>
+
+<!----portfolio-->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work-1.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>
+                        the app connected to you with the talented people around the world.
+                        download it from play fa-app-store
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+
+            <div class=work>
+                <img src="work-2.png">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>
+                        the app connected to you with the talented people around the world.
+                        download it from play fa-app-store
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+
+           <div class=work>
+                <img src="work-3.png">
+                <div class="layer">
+                    <h3>online shopping App</h3>
+                    <p>
+                        the app connected to you with the talented people around the world.
+                        download it from play fa-app-store
+                    </p>
+                    <a href="#"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+         </div>
+         <a href="#" class="btn">See More</a>
+    </div>
+</div>
+<!--contact-->
+<div id="contact"></div>
+<div class="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p><i class="fa-regular fa-paper-plane"></i>jifnamolps123@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i>+91-8608923451</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+
+                
+                
+                
+                </div>
+
+                <a href="JIFNA MOL JUNIOR PROGRAMMER CV (1).pdf" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email"required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+<div class="copyright">
+    <p>Copy  <i class="fa-light fa-copyright"></i>right jifna Made <i class="fa-solid fa-heart"></i> with self</p>
+
+</div>
+
+</div>
+
+
+
+<script>                                                                               
+        var tablinks= document.getElementsByClassName("tab-links");
+        var tabcontents= document.getElementsByClassName("tab-contents");
+        function opentab(tabname)
+        {
+            for(tablink of tablinks)
+            {
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents)
+        {
+            tabcontent.classList.remove("active-tab");
+
+    }
+
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+       </script>
+
+
+
+       <script>
+
+        var sidemeu= document.getElementById("sidemenu");
+        function openmenu()
+        {
+            sidemeu.style.right= "0";
+        }
+        function closemenu()
+        {
+            sidemeu.style.right="-200px";
+        }
+        </script>
+    </body>
+</html>
